@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="me.phh.ims">
+      <uses-permission name="android.permission.ACCESS_NETWORK_STATE" />
+      <uses-permission name="android.permission.READ_PHONE_STATE" />
+      <uses-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+      <uses-permission name="android.permission.RECORD_AUDIO" />
+    </privapp-permissions>
+</permissions>
+

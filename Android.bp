@@ -1,0 +1,17 @@
+android_app_import {
+	name: "PhhIMS",
+	owner: "phh",
+	apk: "PhhIMS.apk",
+        certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: false,
+        required: ["privapp-permissions-me.phh.ims.xml"],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-me.phh.ims.xml",
+    sub_dir: "permissions",
+    src: "privapp-permissions-me.phh.ims.xml",
+}
